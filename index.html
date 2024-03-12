@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/104c10ce48.js" crossorigin="anonymous"></script>
+    <title>2024 Mood Calendar</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="title" class="title">2024 Mood Calendar</h1>
+        <h2 class="subtitle">~ Color Each Day Depending on Your Mood ~</h2>
+    </header>
+    <main class="main">
+        <section class="mood-section">
+            <h1 class="mood-header">Select Mood</h1>
+            <div class="mood-selector">
+                <button class="mood mood-1" id="mood-1"><i class="fa-regular fa-face-laugh-squint"></i></button>
+                <button class="mood mood-2" id="mood-2"><i class="fa-regular fa-face-smile"></i></button>
+                <button class="mood mood-3" id="mood-3"><i class="fa-regular fa-face-meh"></i></button>
+                <button class="mood mood-4" id="mood-4"><i class="fa-regular fa-face-sad-tear"></i></button>
+                <button class="mood mood-5" id="mood-5"><i class="fa-regular fa-face-angry"></i></button>
+            </div>
+        </section>
+        <section class="calendar-section">
+            <div id="calendar" class="calendar"></div>
+        </section>
+    </main>
+    <script src="calendar.js"></script>
+    <script src="mood.js"></script>
+</body>
+
+</html>
